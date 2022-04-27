@@ -18,13 +18,14 @@ export const firebaseService = {
 async function initFirebase() {
     // Get from Firebase
     const firebaseConfig = {
-        apiKey: "AIzaSyBnAiMwKU6ppA2aRnz9z25aGtiBg_dWufU",
-        authDomain: "cajan22-proj.firebaseapp.com",
-        projectId: "cajan22-proj",
-        storageBucket: "cajan22-proj.appspot.com",
-        messagingSenderId: "460826330375",
-        appId: "1:460826330375:web:12e6d4f6fa5bef9634b1a2"
-    };
+        apiKey: "AIzaSyBn82SPreBsn9VEiodQ0l929FpMsCHG7R0",
+        authDomain: "mister-tasker-1f008.firebaseapp.com",
+        projectId: "mister-tasker-1f008",
+        storageBucket: "mister-tasker-1f008.appspot.com",
+        messagingSenderId: "1047753075302",
+        appId: "1:1047753075302:web:19effb4f73940a82195ba7"
+      };
+    
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig)
