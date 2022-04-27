@@ -9,6 +9,8 @@ export const _HomePage = () => {
   return (
   <div>
     <h1> Mister Tasker</h1>
+    <h2>this your tasks!</h2>
+    <h3>changed!</h3>
   </div> 
   )
 }
